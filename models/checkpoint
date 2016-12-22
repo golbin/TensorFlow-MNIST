@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/golbin/Documents/Working/tensorflow/TensorFlow-MNIST/models/mnist-cnn"
+all_model_checkpoint_paths: "/Users/golbin/Documents/Working/tensorflow/TensorFlow-MNIST/models/mnist-cnn"
