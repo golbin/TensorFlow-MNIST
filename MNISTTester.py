@@ -65,9 +65,9 @@ class MNISTTester(MNIST):
     def predict(self, filename):
         data = self.load_image(filename)
 
-        number, _ = self.classify({self.X: data})
+        number, accuracy = self.classify({self.X: data})
 
-        self.print_status('%d is %s' % (number, os.path.basename(filename)))
+        self.print_status('%d is %s, accuracy: %f' % (number, os.path.basename(filename), accuracy))
 
     def load_image(self, filename):
         img = Image.open(filename).convert('L')

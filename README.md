@@ -67,11 +67,11 @@ CNN accuracy of test set: 0.993600
 ---
 Predict random item: 5 is 5, accuracy: 1.000
 ---
-4 is digit-4.png
+4 is digit-4.png, accuracy: 1.000000
 ---
-2 is digit-2.png
+2 is digit-2.png, accuracy: 1.000000
 ---
-5 is digit-5.png
+5 is digit-5.png, accuracy: 0.997631
 ```
 
 ```
